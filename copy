@@ -1,0 +1,3 @@
+#!/bin/bash
+s="$(cat dist/main.js)"
+echo "javascript:$s" | pbcopy
